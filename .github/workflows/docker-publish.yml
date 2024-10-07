@@ -31,7 +31,7 @@ env:
 
 jobs:
   build:
-    runs-on: macos-13-large # ubuntu-latest
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
