@@ -15,8 +15,8 @@ on:
 jobs:
   push_to_registry:
     name: Push Docker image to Docker Hub
-    #runs-on: ubuntu-latest
-    runs-on: [self-hosted, macOS] #self-hosted #[self-hosted, macOS, ARM64]
+    runs-on: ubuntu-latest
+    #runs-on: [self-hosted, macOS] #self-hosted #[self-hosted, macOS, ARM64]
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
